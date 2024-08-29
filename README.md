@@ -38,7 +38,7 @@ awards_dict = {
 }
 ```
 
-Note: Ensure that each award name has a unique URL or list of URLs associated with it.
+Note: Ensure that each award name has a unique URL or list of URLs associated with it. If you need to convert a list of plain text award names and award links from excel, first make a seperate list on notepad or excel with award names and their url links and copy them, paste them on to prompt chatgpt and prompt it to convert it to a python dictionary 
 
 Running the Script
 1. Open Command Prompt/Terminal
