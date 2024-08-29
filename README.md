@@ -23,13 +23,10 @@ Make sure Python (version 3.7 or higher) is installed on your computer. You can 
 ### 2. Required Libraries
 
 Open a command prompt (Windows) or terminal (Mac/Linux) and install the necessary libraries by running the following commands:
-
-  pip install scrapy
-  pip install spacy
-  pip install pandas
-  pip install python-dateutil
-  python -m spacy download en_core_web_sm
-
+```
+pip install scrapy spacy pandas python-dateutil
+python -m spacy download en_core_web_sm
+```
 Preparing the Script
 The script will crawl specific URLs to extract information about different awards. Here's how to prepare it:
 
@@ -39,7 +36,7 @@ Copy the entire code provided here to a text editor (like Notepad) and save it w
 2. Customize the Award Details
 At the top of the script, you'll find a section with the variable awards_dict. This is a dictionary that contains the names of awards and their corresponding URLs. Replace the existing entries with the names and URLs of the awards you want to scrape. The format should be:
 
-
+```
 awards_dict = {
     "Award Name 1": [
         "https://example.com/award1"
@@ -48,18 +45,22 @@ awards_dict = {
         "https://example.com/award2"
     ]
 }
+```
+
 Note: Ensure that each award name has a unique URL or list of URLs associated with it.
 
 Running the Script
 1. Open Command Prompt/Terminal
 Navigate to the directory where you saved award_scraper.py:
-
+```
 cd path/to/your/script
+```
 2. Execute the Script
 Run the script by typing:
 
-
+```
 python award_scraper.py
+```
 The script will start crawling the websites you've provided and extract relevant information.
 
 3. Wait for Completion
