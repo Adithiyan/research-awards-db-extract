@@ -32,7 +32,8 @@ awards_dict = {
         "https://example.com/award1"
     ],
     "Award Name 2": [
-        "https://example.com/award2"
+        "https://link1",
+        "link2"
     ]
 }
 ```
