@@ -2,6 +2,11 @@
 
 This repository contains a Python script that scrapes information about various awards from specified websites and saves the details into an Excel file. No prior knowledge of computer science is required to use this script. Follow the steps below to set up and run the scraper.
 
+## Output
+
+![image](https://github.com/user-attachments/assets/6f4e9433-cc72-4913-8e84-7a5e78472472)
+
+
 ## Installation
 
 Before running the script, you need to install the required software and libraries.
